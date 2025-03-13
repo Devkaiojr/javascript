@@ -21,8 +21,15 @@
     <h1>Ola,Mundo</h1>
     <p>ja me livrei da maldiçao</p>
     <script>
-        var nome = window.prompt('Qual e o seu nome?')//Vai perguntar o nome...
-        window.alert('È um grande prazer em te conhecer,' + nome + 'Seja bem vindo ao site do Bradesco') //concatenaçao
+       var n1 = Number.parseInt(window.prompt('Digite um numero'))// Parseint = Numero inteiro ou usar float para numeros reais,
+       var n2 = Number.parseInt(window.prompt('Digite outro numero'))
+       var s = n1 + n2
+       window.alert(`A soma entre ${ n1 } e ${ n2 } e igual a ${s}`) //Concatenaçao (.)
+       // (number + number) = Soma
+       // (string + string) = Concatena
+       // s.length = Comprimento
+       // s.toUpperCase() = Maiusculo
+       // s.toLowerCase() = Minusculo
     </script>
 </body>
 </html>

@@ -21,8 +21,11 @@
     <h1>Ola,Mundo</h1>
     <p>ja me livrei da maldiçao</p>
     <script>
-        var nome = window.prompt('Qual e o seu nome?')//Vai perguntar o nome...
-        window.alert('È um grande prazer em te conhecer,' + nome + 'Seja bem vindo ao site do Bradesco') //concatenaçao
+        var nome = (window.prompt('qual seu nome?'))
+         var idade = Number.parseInt(window.prompt('qual sua idade?'))
+        var nota = Number.parseFloat(window.prompt('quanto voce tirou na prova?')) 
+        window.alert(`Ola ${nome} voce tem ${idade} anos e tirou ${nota} na prova`)
     </script>
+       
 </body>
 </html>
